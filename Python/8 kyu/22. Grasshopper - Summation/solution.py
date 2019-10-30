@@ -1,4 +1,2 @@
 def summation(num):
-    for i in range(1, num):
-        num += i
-    return num
+    return sum(range(1, num+1))
